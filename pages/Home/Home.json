@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "tab-control":"../../components/tab-control/tab-control",
+    "home-swiper":"../../components/home-swiper/home-swiper",
+    "recommends":"../../components/recommend/recommends",
+    "feature":"./childHome/feature/feature",
+    "home-goods":"../../components/home-goods/home-goods",
+    "backtop":"../../components/backtop/backtop"
+  },
+  "navigationBarTitleText": "购物街",
+  "enablePullDownRefresh": false
+}

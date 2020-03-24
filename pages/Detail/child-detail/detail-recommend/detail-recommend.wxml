@@ -1,0 +1,7 @@
+<!--pages/Detail/child-detail/detail-recommend/detail-recommend.wxml-->
+<view class="recommend">
+<view class="header">商品推荐</view>
+<view class='content'>
+<home-goods goodslist="{{recommends}}"/>
+</view>
+</view>

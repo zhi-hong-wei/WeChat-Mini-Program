@@ -1,0 +1,13 @@
+<!--pages/Detail/child-detail/swiper-detail/swiper-detail.wxml-->
+<swiper indicator-dots='true' 
+        indicator-active-color='#ff5777'
+        autoplay='true'
+        circular='true'
+        interval='3000'
+        class='swiper'>
+  <block wx:for="{{top_image}}" wx:key="index">
+    <swiper-item class="swiper-item">
+      <image class="swiper-image" src="{{item}}" mode='widthFix'/>
+    </swiper-item>
+  </block>
+</swiper>

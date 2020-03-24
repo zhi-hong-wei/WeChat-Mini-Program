@@ -1,0 +1,10 @@
+
+<scroll-view class='menu' scroll-y>
+  <block wx:for="{{categories}}" wx:key="index">
+    <view class='item {{index == currentIndex ? "active": ""}}' 
+          bindtap='onItemClick' 
+          data-index="{{index}}">
+      {{item.title}}   <!-- data-index功能是当点击某个选项时，那个选项就高亮 -->
+    </view>
+  </block>
+</scroll-view>

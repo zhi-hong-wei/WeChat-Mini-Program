@@ -1,0 +1,8 @@
+<!--pages/Profile/Profile.wxml-->
+<view>
+<header/>
+<info/>
+<list infos="{{orderList}}"/>
+<list infos="{{serviceList}}"/>
+</view>
+

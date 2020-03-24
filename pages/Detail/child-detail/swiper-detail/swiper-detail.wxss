@@ -1,0 +1,5 @@
+/* pages/Detail/child-detail/swiper-detail/swiper-detail.wxss */
+.swiper-image {
+  width: 100%;
+  /* height: 100%; */
+}

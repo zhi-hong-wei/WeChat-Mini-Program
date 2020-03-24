@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "header":"./child-profile/header/header",
+    "info": "./child-profile/info/info",
+    "list": "./child-profile/list/list"
+  },
+  "navigationBarTitleText": "我的"
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "home-goods":"/components/home-goods/home-goods"
+  }
+}

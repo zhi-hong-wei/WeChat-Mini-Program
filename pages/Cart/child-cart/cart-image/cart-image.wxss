@@ -1,0 +1,29 @@
+/* pages/Cart/child-cart/cart-image/cart-image.wxss */
+.cart-show{
+  position: relative;
+  height: 100%;
+}
+.cart-show image{
+  width: 400rpx;
+  margin: 250rpx 0 20rpx 150rpx;
+}
+
+.text-show text{
+  color: rgb(141, 121, 121);
+   display: flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom: 20rpx;
+}
+.butt-show button{
+  width: 200rpx;
+  background-color: #e7e7e7; 
+  color: black;
+  border-radius: 24rpx;
+   display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.butt-show button:hover {
+    box-shadow: 0 10rpx 20rpx 0 rgba(0,0,0,0.19);
+}

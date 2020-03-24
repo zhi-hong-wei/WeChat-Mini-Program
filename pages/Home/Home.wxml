@@ -1,0 +1,21 @@
+<!--pages/Home/Home.wxml-->
+
+<!-- 自定义组件命名不能有大写驼峰，由小写字母，中划线，下划线组成 -->
+
+<view class="home">
+<tab-control titles="{{tabcontrol}}" bind:item-click="tabControlClick" class="tab-one" wx:if="{{isFixed}}"/>
+<scroll-view class='content' 
+            scroll-y 
+            scroll-anchoring 
+            enable-back-to-top>
+<home-swiper list="{{banners}}"/>
+<recommends recommend="{{recommends}}" bind:imageLoad="imageLoad"/>
+<feature/>
+<tab-control titles="{{tabcontrol}}" bind:item-click="tabControlClick" class="tab-two"/>
+<home-goods goodslist="{{goods[currentType].list}}"/>
+</scroll-view> 
+<backtop back-top="home-back" wx:if="{{showtop}}"/>
+</view>
+
+
+

@@ -1,0 +1,16 @@
+<!--pages/Detail/Detail.wxml-->
+<view class="conent">
+<scroll-view class='detail'  
+             scroll-y>   <!-- bindscroll="scroll" -->
+<swiper-detail class="d-swiper" top_image="{{topImage}}"/>
+<detail-basefo baseInfo="{{baseInfo}}"/>
+<detail-shop shopInfo="{{shopInfo}}"/>
+<detail-comment commentInfo="{{commentInfo}}"/>
+<detail-param paramInfo="{{paramInfo}}"/>
+<detail-image detailInfo="{{detailInfo}}"/>
+<detail-recommend recommends="{{recommend}}"/>
+</scroll-view>
+
+<detail-bottom class="bottom" bind:addcart="addcart"/>
+<backtop back-top="back" wx:if="{{showtop}}"/>
+</view>

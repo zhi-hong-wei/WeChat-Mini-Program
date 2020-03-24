@@ -1,0 +1,32 @@
+/* pages/Detail/Detail.wxss */
+.conent{
+   position: relative;
+   /* 因为100视口，无法监听滚动 */
+   height: 100vh; 
+}
+.detail{
+height: calc(100% - 120rpx);
+}
+/* .bottom{
+  display: flex;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+background: #fff;
+} */
+
+/* 调整轮播图片大小，后接swiper */
+.d-swiper swiper{
+  height: 800rpx;
+}
+.back{
+  position: fixed;
+  right: 16rpx;
+  bottom: 130rpx;
+}
+.back image {
+  width: 90rpx;
+  height: 90rpx;
+}

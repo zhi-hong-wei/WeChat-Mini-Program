@@ -1,0 +1,4 @@
+<!--pages/Home/childHome/feature/feature.wxml-->
+<view class="feature">
+<image src="/assets/feature/feature_bg.jpg" mode="widthFix"></image>
+</view>

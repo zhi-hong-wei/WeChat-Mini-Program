@@ -1,0 +1,9 @@
+<!--pages/Category/Category.wxml-->
+<search class="search" bind:hidden="hidden" bind:show="show"/>
+<view class='category' wx:if="{{!ishidden}}">
+  <menu categories="{{categories}}"
+          bind:menuclick="menuClick"/>
+  <conent subcategories="{{categoryData[currentIndex].subcategories}}"
+             categoryDetail="{{categoryData[currentIndex].categoryDetail}}"/>
+</view>
+

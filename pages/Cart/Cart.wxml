@@ -1,0 +1,14 @@
+<!--pages/Cart/Cart.wxml-->
+
+<view class='cart'>
+  <scroll-view class='cart-list' scroll-y>
+    <!-- cart-list用于中转，没特殊意义 -->
+    <!-- 此处不用cart-list，因小程序没有vuex，全局仓库cartList[]要在cart.js中调用，
+  所以要在wxml中for遍历，不能在cart-list中用遍历 -->
+    <block wx:for="{{cartList}}" wx:key="index">
+      <cart-list-item goods="{{item}}" index="{{index}}" />
+    </block>
+   <cart-image wx:if="{{showcart}}"/>
+  </scroll-view>
+  <cart-bottom selected="{{isSelectAll}}" price="{{totalPrice}}" counter="{{totalCounter}}" bindtap="onSelectAll" />
+</view>

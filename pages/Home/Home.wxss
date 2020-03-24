@@ -1,0 +1,24 @@
+/* pages/Home/Home.wxss */
+.home{
+  height: 100%
+}
+.content {
+  height: 100%;
+}
+.tab-one{
+   position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  background: #fff;
+}
+.home-back{
+ position: fixed;
+  right: 16rpx;
+  bottom: 10rpx;
+}
+.home-back image {
+  width: 90rpx;
+  height: 90rpx;
+}

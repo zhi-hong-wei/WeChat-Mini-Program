@@ -1,0 +1,8 @@
+/* components/home-swiper/home-swiper.wxss */
+/* 此处设置高度360rpx，不然真机调试图片显示不全 */
+.swiper {
+  height: 360rpx;
+}
+.swiper-item image{
+  width: 100%
+}

@@ -1,0 +1,10 @@
+<!--pages/Cart/child-cart/cart-image/cart-image.wxml-->
+ <view class="cart-show">
+      <image src="/assets/common/empty.gif" mode="widthFix"></image>
+      <view class="text-show">
+        <text>购物车竟然为空</text>
+        <view class="butt-show">
+          <button size="mini" bindtap="gobuy">去逛逛</button>
+        </view>
+      </view>
+    </view>
