@@ -21,7 +21,7 @@
 
 &emsp;&emsp;&emsp;![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/pro.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/login.png)
 
-**目录结构**
+**目录结构：**
 
 - assets——存放项目图片
 - components——存放项目公共组件
