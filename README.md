@@ -13,7 +13,7 @@
 &nbsp;
 &emsp;&emsp;![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/detail.png)&emsp;&emsp;&emsp;&emsp;![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/xiangqing.png)
 &nbsp;
-![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/b69e24e369b91990f45c9fef4d53084.jpg)![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/pro.png)![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/login.png)
+&emsp;&emsp;![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/pro.png)&emsp;&emsp;&emsp;&emsp;![](https://github.com/zhi-hong-wei/WeChat-Mini-Program/blob/%E5%B0%8F%E7%A8%8B%E5%BA%8F/image/login.png)
 
 
 
